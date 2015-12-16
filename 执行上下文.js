@@ -2,7 +2,7 @@
  执行上下文环境:在执行代码之前，把将要用到的所有的变量都事先拿出来，有的直接赋值了，有的先用undefined占个空。
 */
 
-// 全局环境下的代码段
+###全局环境下的代码段
 // (1)
 console.log(a); // Uncaught ReferenceError: a is not defined
 // (2)
@@ -26,7 +26,7 @@ var f2 = function (){}; // 函数表达式
 this: 进行了赋值
 */
 
-// 函数作用域
+###函数作用域
 function f1(x)
 {
 	console.log(arguments); // 10 arguments变量和函数的参数都已经被赋值
